@@ -20,7 +20,7 @@ const DATABASE_URL = process.env.DATABASE_URL || "postgres://yynid:oQepS0ymxZbyR
 // const DATABASE_URL = process.env.DATABASE_URL || "postgres://localhost/medusa-store";
 // Medusa uses Redis, so this needs configuration as well
 // const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
-const REDIS_URL = process.env.REDIS_URL || "redis://red-cjb56ppitvpc73eok84g:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://red-cjdk5bqvvtos73c2a2qg:6379";
 
 
 
