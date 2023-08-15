@@ -9,20 +9,18 @@ const STORE_CORS = process.env.STORE_CORS || " https://deluxe-chebakia-ad2b74.ne
 // Database URL (here we use a local database called medusa-development)
 
 const DB_USERNAME = process.env.DB_USERNAME || "yynid";
-const DB_PASSWORD = process.env.DB_PASSWORD || "oQepS0ymxZbyRzBbnfqNcWOLhVBVuonM";
-const DB_HOST = process.env.DB_HOST || "dpg-cjdk37bbq8nc739pbe00-a";
+const DB_PASSWORD = process.env.DB_PASSWORD || "AqL7WYVzRYI19IJLxswIStUV3VVs468G";
+const DB_HOST = process.env.DB_HOST || "dpg-cjdlkm2vvtos73ci4lp0-a";
 const DB_PORT = process.env.DB_PORT || "5432";
-const DB_DATABASE = process.env.DB_DATABASE || "ylstore_6660";
+const DB_DATABASE = process.env.DB_DATABASE || "ylstore_g2l5";
 
 // const DATABASE_URL = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`;
 
-const DATABASE_URL = process.env.DATABASE_URL || "postgres://yynid:oQepS0ymxZbyRzBbnfqNcWOLhVBVuonM@dpg-cjdk37bbq8nc739pbe00-a/ylstore_6660";
+const DATABASE_URL = process.env.DATABASE_URL || "postgres://yynid:AqL7WYVzRYI19IJLxswIStUV3VVs468G@dpg-cjdlkm2vvtos73ci4lp0-a/ylstore_g2l5";
 // const DATABASE_URL = process.env.DATABASE_URL || "postgres://localhost/medusa-store";
 // Medusa uses Redis, so this needs configuration as well
 // const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 const REDIS_URL = process.env.REDIS_URL || "redis://red-cjdk5bqvvtos73c2a2qg:6379";
-
-
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "pk_live_51NdOyMGHWQ38AB7XcAxORp5dAbpZ5rxqGfFvVe0o0w75vmlzGHnY8YxLHedEoRFOzMw4K6A6ot3fd6oX98u6LFj000KUErzPDd";
